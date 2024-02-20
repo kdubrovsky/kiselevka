@@ -136,7 +136,48 @@
         "warning": "#DF6A00",
         "warning.background": "#1E3140",
         "warning.border": "#131F28",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#3EA3AAff",
+            "background": "#3EA3AAff",
+            "selection": "#3EA3AA3d"
+          },
+          {
+            "cursor": "#D438A8ff",
+            "background": "#D438A8ff",
+            "selection": "#D438A83d"
+          },
+          {
+            "cursor": "#D5751Dff",
+            "background": "#D5751Dff",
+            "selection": "#D5751D3d"
+          },
+          {
+            "cursor": "#8276DCff",
+            "background": "#8276DCff",
+            "selection": "#8276DC3d"
+          },
+          {
+            "cursor": "#3EA3AAff",
+            "background": "#3EA3AAff",
+            "selection": "#3EA3AA3d"
+          },
+          {
+            "cursor": "#CE3043ff",
+            "background": "#CE3043ff",
+            "selection": "#CE30433d"
+          },
+          {
+            "cursor": "#807B0Aff",
+            "background": "#807B0Aff",
+            "selection": "#807B0A3d"
+          },
+          {
+            "cursor": "#88A70Aff",
+            "background": "#88A70Aff",
+            "selection": "#88A70A3d"
+          }
+        ],
         "syntax": {
           "boolean": {
             "color": "#DD6BBD",
@@ -194,7 +235,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#ff0000",
+            "color": "#9E6C40",
             "font_style": null,
             "font_weight": null
           },
@@ -204,7 +245,7 @@
             "font_weight": null
           },
           "punctuation": {
-            "color": "#ff0000",
+            "color": "#799BAF",
             "font_style": null,
             "font_weight": null
           },
@@ -234,12 +275,12 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#ff0000",
+            "color": "#799BAF",
             "font_style": null,
             "font_weight": null
           },
           "string.regex": {
-            "color": "#74af81",
+            "color": "#A3C7AB",
             "font_style": null,
             "font_weight": null
           },
@@ -249,7 +290,7 @@
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#ff0000",
+            "color": "#A3C7AB",
             "font_style": null,
             "font_weight": null
           },
