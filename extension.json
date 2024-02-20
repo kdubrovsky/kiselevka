@@ -1,0 +1,7 @@
+{
+  "name": "Kiselevka dark theme",
+  "version": "0.0.1",
+  "authors": ["Konstantin Tereschenkov <kdubrovsky@gmail.com>"],
+  "description": "Kiselevka dark color scheme for Zed",
+  "repository": "https://github.com/kdubrovsky/kiselevka-zed"
+}
