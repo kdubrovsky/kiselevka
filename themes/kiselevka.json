@@ -45,8 +45,8 @@
         "tab.active_background": "#14222C",
         "search.match_background": "#07395A",
         "panel.background": "#0F1921",
-        "panel.focused_border": "#ff0000",
-        "pane.focused_border": "#ff0000",
+        "panel.focused_border": null,
+        "pane.focused_border": null,
         "scrollbar_thumb.background": "#2C485E50",
         "scrollbar.thumb.hover_background": "#ff0000",
         "scrollbar.thumb.border": "#2C485E50",
@@ -179,6 +179,11 @@
           }
         ],
         "syntax": {
+          "attribute": {
+            "color": "#B0641F",
+            "font_style": null,
+            "font_weight": null
+          },
           "boolean": {
             "color": "#DD6BBD",
             "font_style": null,
@@ -203,6 +208,31 @@
             "color": "#B0641F",
             "font_style": null,
             "font_weight": null
+          },
+          "embedded": {
+            "color": "#92BCD4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "emphasis": {
+            "color": "#A99C8C",
+            "font_style": null,
+            "font_weight": null
+          },
+          "emphasis.strong": {
+            "color": "#A99C8C",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#74af81",
+            "font_style": null,
+            "font_weight": null
+          },
+          "hint": {
+            "color": "#618399ff",
+            "font_style": null,
+            "font_weight": 700
           },
           "function": {
             "color": "#19A8BC",
@@ -234,8 +264,23 @@
             "font_style": null,
             "font_weight": null
           },
+          "operator": {
+            "color": "#A3C7AB",
+            "font_style": null,
+            "font_weight": null
+          },
+          "predictive": {
+            "color": "#ff0000",
+            "font_style": null,
+            "font_weight": null
+          },
           "preproc": {
             "color": "#9E6C40",
+            "font_style": null,
+            "font_weight": null
+          },
+          "primary": {
+            "color": "#92BCD4",
             "font_style": null,
             "font_weight": null
           },
@@ -321,6 +366,11 @@
           },
           "variable.special": {
             "color": "#A99C8C",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variant": {
+            "color": "#B0641F",
             "font_style": null,
             "font_weight": null
           }
