@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect x="0" y="0" width="400" height="600" fill="#0F1921"/>
+  <rect x="400" y="0" width="381" height="600" fill="#192935"/>
+  <rect x="781" y="0" width="192" height="600" fill="#243C4E"/>
+  <rect x="973" y="0" width="227" height="600" fill="#16A8D9"/>
+  <rect x="0" y="93" width="150" height="150" fill="#CC5266"/>
+  <rect x="300" y="309" width="100" height="100" fill="#BFAE99"/>
+  <rect x="0" y="442" width="100" height="100" fill="#BC57BE"/>
+  <rect x="781" y="68" width="70" height="70" fill="#9A8CFF"/>
+  <rect x="711" y="530" width="70" height="70" fill="#30B6BF"/>
+  <text x="424" y="386" font-family="JetBrains Mono" font-weight="300" font-size="62" fill="#ffffff" fill-opacity="0.82">Kiselevka Dark</text>
+</svg>
