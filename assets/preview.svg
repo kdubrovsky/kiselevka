@@ -1,12 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
-  <rect x="0" y="0" width="400" height="600" fill="#0F1921"/>
-  <rect x="400" y="0" width="381" height="600" fill="#192935"/>
-  <rect x="781" y="0" width="192" height="600" fill="#243C4E"/>
-  <rect x="973" y="0" width="227" height="600" fill="#16A8D9"/>
-  <rect x="0" y="93" width="150" height="150" fill="#CC5266"/>
-  <rect x="300" y="309" width="100" height="100" fill="#BFAE99"/>
-  <rect x="0" y="442" width="100" height="100" fill="#BC57BE"/>
-  <rect x="781" y="68" width="70" height="70" fill="#9A8CFF"/>
-  <rect x="711" y="530" width="70" height="70" fill="#30B6BF"/>
-  <text x="424" y="386" font-family="JetBrains Mono" font-weight="300" font-size="62" fill="#ffffff" fill-opacity="0.82">Kiselevka Dark</text>
+  <defs>
+    <clipPath id="night"><rect x="0" y="0" width="600" height="600"/></clipPath>
+    <clipPath id="morning"><rect x="600" y="0" width="600" height="600"/></clipPath>
+  </defs>
+
+  <!-- Sky: night (Kiselevka Dark backgrounds) to morning (Kiselevka Light backgrounds) -->
+  <rect x="0" y="0" width="150" height="600" fill="#0F1921"/>
+  <rect x="150" y="0" width="150" height="600" fill="#111C24"/>
+  <rect x="300" y="0" width="150" height="600" fill="#192935"/>
+  <rect x="450" y="0" width="150" height="600" fill="#243C4E"/>
+  <rect x="600" y="0" width="150" height="600" fill="#C3D3DD"/>
+  <rect x="750" y="0" width="150" height="600" fill="#DCE5EB"/>
+  <rect x="900" y="0" width="150" height="600" fill="#E7EDF1"/>
+  <rect x="1050" y="0" width="150" height="600" fill="#F6F8FA"/>
+
+  <!-- Water below the horizon -->
+  <rect x="0" y="440" width="600" height="160" fill="#000000" fill-opacity="0.22"/>
+  <rect x="600" y="440" width="600" height="160" fill="#0F1921" fill-opacity="0.07"/>
+
+  <!-- Stars -->
+  <rect x="62" y="64" width="12" height="12" fill="#92BCD4"/>
+  <rect x="236" y="38" width="8" height="8" fill="#9A8CFF"/>
+  <rect x="388" y="96" width="10" height="10" fill="#30B6BF"/>
+  <rect x="512" y="44" width="8" height="8" fill="#BC57BE"/>
+  <rect x="92" y="226" width="8" height="8" fill="#BFAE99"/>
+  <rect x="452" y="214" width="10" height="10" fill="#92BCD4"/>
+
+  <!-- Moon and its reflection -->
+  <rect x="150" y="120" width="96" height="96" fill="#C8A431"/>
+  <rect x="150" y="464" width="96" height="8" fill="#C8A431" fill-opacity="0.7"/>
+  <rect x="166" y="488" width="64" height="6" fill="#C8A431" fill-opacity="0.45"/>
+  <rect x="182" y="510" width="32" height="4" fill="#C8A431" fill-opacity="0.25"/>
+
+  <!-- Sun and its reflection -->
+  <rect x="930" y="96" width="120" height="120" fill="#CC7A29"/>
+  <rect x="930" y="464" width="120" height="8" fill="#CC7A29" fill-opacity="0.7"/>
+  <rect x="950" y="488" width="80" height="6" fill="#CC7A29" fill-opacity="0.45"/>
+  <rect x="970" y="510" width="40" height="4" fill="#CC7A29" fill-opacity="0.25"/>
+
+  <!-- Morning birds -->
+  <rect x="742" y="86" width="10" height="10" fill="#006B9D"/>
+  <rect x="790" y="140" width="8" height="8" fill="#2E8043"/>
+  <rect x="1110" y="250" width="10" height="10" fill="#9E3BA1"/>
+
+  <!-- Title: light text over the night half, dark text over the morning half -->
+  <g font-family="JetBrains Mono" text-anchor="middle">
+    <g clip-path="url(#night)" fill="#FFFFFF" fill-opacity="0.85">
+      <text x="623" y="330" font-size="76" font-weight="300">Kiselevka</text>
+      <text x="600" y="378" font-size="24" font-weight="300" letter-spacing="6">dark · light</text>
+    </g>
+    <g clip-path="url(#morning)" fill="#0F1921" fill-opacity="0.85">
+      <text x="623" y="330" font-size="76" font-weight="300">Kiselevka</text>
+      <text x="600" y="378" font-size="24" font-weight="300" letter-spacing="6">dark · light</text>
+    </g>
+  </g>
 </svg>

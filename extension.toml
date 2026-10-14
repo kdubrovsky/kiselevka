@@ -1,7 +1,7 @@
-name = "Kiselevka dark theme"
-version = "0.1.0"
+name = "Kiselevka"
+version = "0.2.0"
 authors = ["Konstantin Tereschenkov <kdubrovsky@gmail.com>"]
-description = "Kiselevka dark color scheme for Zed"
+description = "Cozy dark and light color themes for Zed"
 repository = "https://github.com/kdubrovsky/kiselevka"
 id = "kiselevka"
 schema_version = 1
